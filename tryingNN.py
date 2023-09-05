@@ -14,4 +14,3 @@ biases = [2, 3, 0.5]
 # of applying the dot product(about matrices) so we need to transpose weights by saying "np.array(weights).T" so it turns (4,3) from (3,4).
 output = np.dot(inputs, np.array(weights).T) + biases
 print(output) 
-print("dfawdwawd")
